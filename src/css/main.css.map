@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "AEAA,AAIQ,MAJF,CACJ,WAAW,CACT,EAAE,CACA,EAAE,CACA,CAAC,AAAA,OAAO,CAAC;EACP,YAAY,EAAE,IAAI;EAClB,gBAAgB,EAAE,IAAI;CACvB",
+    "sources": [
+        "../scss/main.scss",
+        "../scss/_normal.scss",
+        "../scss/_sidebar.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}

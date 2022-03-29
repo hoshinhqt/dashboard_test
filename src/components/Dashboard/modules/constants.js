@@ -1,0 +1,4 @@
+
+
+export const REQUEST_API_POSTS = `REQUEST_API_POSTS`;
+export const SUCCESS_API_POSTS = `SUCCESS_API_POSTS`;

@@ -1,0 +1,16 @@
+header {
+  .sideNavBar {
+    ul {
+      li {
+       
+        a.active {
+          background-color: #125d98;
+          color: white;
+        }
+      }
+    }
+    .navbar-nav .nav-link {
+      padding: 10px;
+    }
+  }
+}
