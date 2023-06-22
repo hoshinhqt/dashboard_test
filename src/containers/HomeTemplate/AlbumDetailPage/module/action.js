@@ -8,7 +8,6 @@ export const fetchAlbumDetailAPi = (id) => {
         api
             .get(`albums/${id}/`)
             .then(result => {
-
                 dispatch(successAPi(result.data, ActionType.SUCCESS_API_ITEM_ALBUMs))
             })
             .catch(err => {

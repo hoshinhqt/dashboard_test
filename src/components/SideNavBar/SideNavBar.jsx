@@ -3,6 +3,7 @@ import { useDispatch } from 'react-redux';
 import useStyle from "./styles";
 import { Link, NavLink } from 'react-router-dom';
 import { fetchAlbumsApi, fetchPostApi, fetchPhotosApi } from '../Dashboard/modules/action';
+import { makeStyles } from '@material-ui/core';
 
 export default function SideNavBar() {
     const styles = useStyle();
@@ -22,7 +23,7 @@ export default function SideNavBar() {
             <nav id="sidebar" className={styles.sidebar}>
                 <div>
                     <Link to='/dashboard' className="nav-link" >
-                        <h4 className={styles.text}> <strong>My App</strong></h4>
+                        <h4 className={styles.text}> <strong>Welcome</strong></h4>
                     </Link>
                 </div>
                 <div className="sideNavBar">
@@ -49,7 +50,11 @@ export default function SideNavBar() {
                                 Photos
                             </NavLink>
                         </li>
-
+                        <li className={`nav-item ${styles.customLi}`}>
+                            <NavLink to='/cost-caculate' className={`nav-link ${styles.customNavLink}`}>
+                                Cost Caculate
+                            </NavLink>
+                        </li>
                     </ul>
                 </div>
 
@@ -57,3 +62,5 @@ export default function SideNavBar() {
         </header>
     )
 }
+
+

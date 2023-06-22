@@ -10,7 +10,7 @@ const useStyle = makeStyles(() => ({
         backgroundColor: '#F7F7F7',
     },
     text: {
-        color: 'black',
+        color: '#001C30',
         fontSize: 30
     },
 
@@ -21,7 +21,7 @@ const useStyle = makeStyles(() => ({
     },
     customNavLink: {
         padding: 10,
-        color: '#125D98',
+        color: '#5A96E3',
 
     }
 

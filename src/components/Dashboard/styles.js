@@ -7,7 +7,7 @@ const useStyle = makeStyles(() => ({
 
     },
     myCardHeader: {
-        backgroundColor: '#125D98',
+        backgroundColor: '#5A96E3',
         color: 'white',
         paddingRight: 60,
         paddingLeft: 60,

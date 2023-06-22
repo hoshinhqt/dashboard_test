@@ -11,9 +11,10 @@ import { Route, Switch } from 'react-router-dom';
 import AlbumDetailPage from "../containers/HomeTemplate/AlbumDetailPage/AlbumDetailPage";
 import PostDetailPage from "../containers/HomeTemplate/PostDetailPage/PostDetailPage";
 import PhotoDetailPages from "../containers/HomeTemplate/PhotosDetailPage/PhotoDetailPages";
+import CostCaculatePage from "../containers/HomeTemplate/CostCaculatePage/CostCaculatePage.jsx"
 
 const homeRoutes = [
-  
+
     { exact: true, path: '/dashboard', component: HomePage },
 
     { exact: false, path: '/postpage', component: PostPage },
@@ -25,7 +26,10 @@ const homeRoutes = [
     { exact: false, path: '/photos', component: PhotosPage },
     // { exact: false, path: '/photos', component: PhotoDetailPages },
 
+    { exact: false, path: '/cost-caculate', component: CostCaculatePage },
+
     { exact: false, path: '/user', component: UserPages },
+
 ]
 
 export { homeRoutes };
